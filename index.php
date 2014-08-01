@@ -36,6 +36,7 @@ I'm a Python developer, entrepreneur, physicist, and writer.
 <a href="https://twitter.com/clark800"><img src="img/icons/twitter.png"></a>
 <a href="https://www.facebook.com/chris.clark.ucla"><img src="img/icons/facebook.png"></a>
 <a href="http://instagram.com/thrivebydesign"><img src="img/icons/instagram.png"></a>
+<a href="https://www.linkedin.com/in/clark800"><img src="img/icons/linkedin.png"></a>
 <a href="http://stackoverflow.com/users/2647751/clark800"><img src="img/icons/stackoverflow.png"></a>
 <a href="https://github.com/clark800"><img src="img/icons/github.png"></a>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JD3RBU2XLGQYA"><img src="img/icons/paypal.png"></a>
