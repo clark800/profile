@@ -31,6 +31,7 @@ I'm a Python developer, entrepreneur, physicist, and writer.
 </div>
 <div class="keys">
 <a href="pubkey.asc">PGP Public Key</a>
+<a href="resume.pdf">R&eacute;sum&eacute;</a>
 </div>
 <div class="icons">
 <a href="https://twitter.com/clark800"><img src="img/icons/twitter.png"></a>
