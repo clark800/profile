@@ -20,6 +20,7 @@
 I'm a Python developer, entrepreneur, physicist, and writer.
 </p>
 <ul>
+<li><a href="http://pystarch.rampantlogic.com">PyStarch</a> - python static type checker
 <li><a href="http://architect-server.com">Architect Server</a> - home server platform
 <li><a href="http://rampantlogic.com">Rampant Logic</a> - my software company
 <li><a href="http://dfcd.net">dfcd.net</a> - physics research and tech projects</li>
