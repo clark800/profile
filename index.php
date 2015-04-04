@@ -27,7 +27,7 @@ I'm a Python developer, entrepreneur, physicist, and writer.
 <li><a href="http://www.amazon.com/Bitcoin-Internals-Technical-Guide-ebook/dp/B00DG8EPT0">Bitcoin Internals</a> - technical book about Bitcoin</li>
 <li><a href="http://thrivebydesign.org">Thrive By Design</a> - blog about philosophy and lifehacking</li>
 <li><a href="http://rampantlogic.com/entropass">Entropass</a> - cryptographic password manager</li>
-<li><a href="http://grouphabits.com/1">GroupHabits</a> - social habit-tracking system</li>
+<li><a href="http://grouphabits.com/">GroupHabits</a> - social habit-tracking system</li>
 </ul>
 </div>
 <div class="keys">

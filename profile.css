@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    /* Background image from: https://unsplash.com/craiggarner */
     background: url('img/desk.jpg');
     background-repeat: no-repeat;
     background-size: cover;
