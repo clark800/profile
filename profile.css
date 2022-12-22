@@ -9,11 +9,9 @@ html {
 }
 
 body {
-    /* Background image from: https://unsplash.com/craiggarner */
-    background: url('img/desk.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background: rgb(234,247,204);
+    background: radial-gradient(farthest-corner at 700px 800px, rgba(234,247,204,1) 0%, rgba(179,217,189,1) 33%,rgba(86,166,163,1) 60%, rgba(5,91,116,1) 100%);
+    /*background: radial-gradient(circle at 2.01% 30.02%, #00c6ff, transparent 100%),radial-gradient(circle at 97.99% 10.05%, #0072ff, transparent 100%),radial-gradient(circle at 50% 50%, #8903ff, #8903ff 100%);*/
     padding: 0px;
     font-family: Baskerville;
     text-shadow: 0px 0px 2px black;
@@ -21,7 +19,7 @@ body {
 
 .container {
     width: 600px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     margin: 0px auto;
     margin-top: 50px;
     padding: 15px;
