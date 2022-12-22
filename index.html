@@ -1,15 +1,13 @@
 <html>
 <head>
 <title>Chris Clark</title>
-<link rel="stylesheet" type="text/css" href="profile.css"/>
 <link href="lib/featherlight.css" type="text/css" rel="stylesheet" />
-<link href="lightbox.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="profile.css"/>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="lib/qrcode.js"></script>
 <script src="lib/featherlight.js"></script>
-<script src="qrlightbox.js"></script>
 </head>
-<body>
+<body onload="new QRCode('qrcode', '1Do82XW4vK3wyVxFFSAhiGzn6dHTc68ouu')">
 <div class="container">
 <h2>Chris Clark</h2>
 <div class="intro">
@@ -24,10 +22,6 @@ pure lazy functional programming language
 <li><a href="https://www.slideshare.net/clark800/how-bitcoin-20-will-shape-the-future-of-business">Bitcoin 2.0 Webcast</a> - predications about the future of crypto
 <li><a href="http://rampantlogic.com/entropass">Entropass</a> - cryptographic password manager</li>
 <li><a href="http://thrivebydesign.org">Thrive By Design</a> - blog about philosophy and lifehacking</li>
-<!--<li><a href="http://pystarch.rampantlogic.com">PyStarch</a> - python static type checker-->
-<!--<li><a href="http://architect.rampantlogic.com">Architect Server</a> - home server platform-->
-<!--<li><a href="http://calendar.rampantlogic.com/">SocialGoals</a> - social habit-tracking system</li>-->
-<!--<li><a href="http://rampantlogic.com">Rampant Logic</a> - my software company-->
 </ul>
 <br/>
 <br/>
@@ -51,12 +45,26 @@ traveling &amp; world cultures.
 </p>
 </div>
 </div>
-<!--<div class="keys"> </div>-->
 <div class="icons">
-<a href="https://github.com/clark800"><img src="img/icons/github.png"></a>
-<a id="bitcoin-button" href="#" onclick="showQRLightbox('1Do82XW4vK3wyVxFFSAhiGzn6dHTc68ouu', 'Bitcoin Address', 'bitcoin')"><img src="img/icons/bitcoin.png"></a>
-<a href="mailto:chris.clark.pgp@gmail.com?subject=Encrypted&body=%2A%2A%20You%20must%20encrypt%20this%20message%20with%20PGP%20or%20it%20will%20be%20automatically%20deleted%21%20%2A%2A%0A%0A%20My%20PGP%20public%20key%20is%20available%20at%3A%20http%3A%2F%2Fcclark.me%2Fpubkey.asc"><img src="img/icons/email.png"></a>
+    <a href="https://github.com/clark800"><img src="img/icons/github.png"></a>
+    <a href="#" data-featherlight="#bitcoin-lightbox"><img src="img/icons/bitcoin.png"></a>
+    <a href="#" data-featherlight="#email-lightbox"><img src="img/icons/email.png"></a>
 </div>
 </div>
+
+<div class="lightbox qr-lightbox" id="bitcoin-lightbox">
+    <a href="bitcoin:1Do82XW4vK3wyVxFFSAhiGzn6dHTc68ouu" target="_blank">
+        <div class="qrcode" id="qrcode"></div>
+    </a>
+    <h4>Bitcoin Address</h4>
+    <input value="1Do82XW4vK3wyVxFFSAhiGzn6dHTc68ouu" readonly />
+</div>
+
+<div class="lightbox" id="email-lightbox">
+    <p>🔒 For immediate delivery, encrypt with this <a href="pubkey.asc">PGP Public Key</a>.</p>
+    <p>⚠️ Unencrypted email is filtered as spam, which is checked intermittently.</p>
+    <p>✉️ <a href="mailto:chris.clark.pgp@gmail.com">chris.clark.pgp@gmail.com</a></p>
+</div>
+
 </body>
 </html>
