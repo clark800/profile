@@ -2,18 +2,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Chris Clark</title>
-<link href="lib/featherlight.css" type="text/css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="profile.css"/>
+<link href="styles/featherlight.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="styles/profile.css"/>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="lib/qrcode.js"></script>
-<script src="lib/featherlight.js"></script>
+<script src="scripts/qrcode.js"></script>
+<script src="scripts/featherlight.js"></script>
 </head>
 <body onload="new QRCode('qrcode', '1Do82XW4vK3wyVxFFSAhiGzn6dHTc68ouu')">
 <div class="container">
 <h2>Chris Clark</h2>
 <div class="intro">
 <div class="imgbox">
-<a href="img/profile.jpg"><img class="profile" src="img/profile.jpg"></a>
+<a href="images/profile.jpg"><img class="profile" src="images/profile.jpg"></a>
 </div>
 <ul>
 <li><a href="http://dfcd.net">dfcd.net</a> - physics research and tech projects</li>
@@ -47,9 +47,15 @@ traveling &amp; world cultures.
 </div>
 </div>
 <div class="icons">
-    <a href="https://github.com/clark800"><img src="img/icons/github.png"></a>
-    <a href="#" data-featherlight="#bitcoin-lightbox"><img src="img/icons/bitcoin.png"></a>
-    <a href="#" data-featherlight="#email-lightbox"><img src="img/icons/email.png"></a>
+    <a href="https://github.com/clark800">
+        <img src="images/icons/github.png">
+    </a>
+    <a href="#" data-featherlight="#bitcoin-lightbox">
+        <img src="images/icons/bitcoin.png">
+    </a>
+    <a href="#" data-featherlight="#email-lightbox">
+        <img src="images/icons/email.png">
+    </a>
 </div>
 </div>
 
@@ -62,7 +68,7 @@ traveling &amp; world cultures.
 </div>
 
 <div class="lightbox" id="email-lightbox">
-    <p>🔒 For immediate delivery, encrypt with this <a href="pubkey.asc">PGP Public Key</a>.</p>
+    <p>🔒 For immediate delivery, encrypt with this <a href="files/pubkey.asc">PGP Public Key</a>.</p>
     <p>⚠️ Unencrypted email is filtered as spam, which is checked intermittently.</p>
     <p>✉️ <a href="mailto:chris.clark.pgp@gmail.com">chris.clark.pgp@gmail.com</a></p>
 </div>
